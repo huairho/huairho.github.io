@@ -23,7 +23,19 @@ BeanDefinition 是 spring 定义 Bean 的配置元信息接口，包含
 
 BeanDefinition 并非是 Bean 的终态
 
-[BeanDefinition 元信息](Spring%20Bean%20%E5%9F%BA%E7%A1%80%20afab693aa0ed4c1bb60fdf1541d00054/BeanDefinition%20%E5%85%83%E4%BF%A1%E6%81%AF%209f608a069a4b4855b4f7db0cf6d95041.csv)
+## BeanDefinition 元信息
+
+| 属性(Property)               | **说明**                                      |
+| ---------------------------- | --------------------------------------------- |
+| **Class**                    | Bean 全类名，必须是具体类，不能用抽象类或接口 |
+| **Name**                     | Bean 的名称或者 ID                            |
+| **Scope**                    | Bean 的作用域（如：singleton、prototype 等）  |
+| **Constructor arguments**    | Bean 构造器参数（用于依赖注入）               |
+| **Properties**               | Bean 属性设置（用于依赖注入）                 |
+| **Autowiring mode**          | Bean 自动绑定模式（如：通过名称 byName）      |
+| **Lazy initialization mode** | Bean 延迟初始化模式（延迟和非延迟）           |
+| **Initialization method**    | Bean 初始化回调方法名称                       |
+| **Destruction method**       | Bean 销毁回调方法名称                         |
 
 ## BeanDefinition 构建方式
 
