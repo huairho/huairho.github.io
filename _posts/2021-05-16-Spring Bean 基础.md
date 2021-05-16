@@ -7,7 +7,7 @@ author:     Huairho
 header-img: img/spring-bean-base.jpg
 catalog: true
 tags:
-    - Spring
+    - Spring IOC 篇
 ---
 
 # BeanDefinition
