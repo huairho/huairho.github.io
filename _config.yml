@@ -13,7 +13,6 @@ github_repo: "https://github.com/huairho" # you code repository
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "心之所向，无往而不利!"
 sidebar-avatar: /img/about-BY-Huairho.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
-permalink: :year-:month-:day-:title/
 gems: [jekyll-paginate]
 
 
